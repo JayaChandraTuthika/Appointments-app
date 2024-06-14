@@ -1,0 +1,69 @@
+* {
+  font-family: 'roboto';
+  /* border: 1px solid black; */
+}
+
+.list-item {
+  background-color: white;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  padding: 15px;
+  width: 350px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.app-title {
+  font-size: 20px;
+  color: #171f46;
+}
+.app-date {
+  color: #9897f0;
+  font-size: 15px;
+}
+.star-image {
+  height: 30px;
+  margin: 5px;
+}
+.star-btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .list-item {
+    background-color: white;
+    border: 1px solid #b5b7c4;
+    border-radius: 5px;
+    padding: 15px;
+    width: 350px;
+    margin: 10px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .app-title {
+    font-size: 18px;
+    color: #171f46;
+    font-weight: 600;
+    margin: 3px 0;
+  }
+  .app-date {
+    color: #9897f0;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .star-image {
+    height: 25px;
+    margin: 5px;
+  }
+  .star-btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
